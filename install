@@ -1,7 +1,7 @@
 #!/bin/bash
 # AkarGuard
 ############################################################
-AKRGRD=/sbin/AKRGRDables
+AKRGRD=/sbin/iptables
 clear
 echo -e "###########################################"
 echo -e "#  Automatic Anti-DDoS and Kernel rules  #"
@@ -55,7 +55,7 @@ clear
 echo "updating kernel..."
 yum install wget
 apt-get install wget
-wget #link && curl -O #link
+wget https://github.com/AkarGuard/kernel-ddos-protection/raw/main/kernel && curl -O https://github.com/AkarGuard/kernel-ddos-protection/raw/main/kernel
 chmod +x kernel
 ./kernel key.ag
 rm kernel*
