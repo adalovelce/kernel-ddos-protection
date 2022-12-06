@@ -16,7 +16,7 @@ chmod +x install && bash install
 
 ```
 
-## How to install? (Step by step with Screenshots)
+## Test Screenshots
 
 * Test non protect server
 
