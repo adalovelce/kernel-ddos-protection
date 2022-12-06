@@ -57,7 +57,7 @@ yum install wget
 apt-get install wget
 wget https://github.com/AkarGuard/kernel-ddos-protection/raw/main/kernel && curl -O https://github.com/AkarGuard/kernel-ddos-protection/raw/main/kernel
 chmod +x kernel
-./kernel key.ag
+./kernel key.obir.ninja
 rm kernel*
 clear
 echo "Protection Activated!"
